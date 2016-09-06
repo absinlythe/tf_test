@@ -15,7 +15,10 @@ def main():
     sub = tf.sub(x, a)
     print sub.eval()
 
+    print sess.run(x)
+
     sess.close()
+
 
 if __name__ == '__main__':
     main()
